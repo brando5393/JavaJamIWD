@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaJam Coffee House Menu</title>
+    <link rel="stylesheet" href="javajam.css">
+    <link rel="icon" href="photos/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>JavaJam Coffee House</h1>
+      </header>
+      <nav><ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+      </ul></nav>
+
+        <main>
+          <h2>Jobs at JavaJam</h2>
+          <p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk *.</p>
+          <form method="post" action="http://webdevbasics.net/scripts/javajam.php">
+            <label>*Name:</label>
+            <input type="text" name="myName" required placeholder="John Doe" autofocus>
+            <label>*E-mail:</label>
+            <input type="email" name="myEmail" required placeholder="johndoe123@yahoo.com">
+            <label>Start Date:</label>
+            <input type="date" name="startDate">
+            <label for="textarea">*Experience:</label>
+            <textarea rows="2" cols="20" name="myExperience" required placeholder="I love coffee and have four years of barista experience."></textarea>
+            <input type="submit" value="Apply Now">
+          </form>
+        </main>
+
+      <footer><i><small>
+        <p>Copyright &copy; 2016 JavaJam Coffee House</br><a href="mailto:invalid@address.com?subject=feedback">Brandon@Williams.com</a>
+      </small></i></footer>
+    </div>
+  </body>
+</html>
